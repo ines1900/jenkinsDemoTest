@@ -1,0 +1,254 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-07-27T09:19:37.792Z",
+        "line": 22,
+        "name": "Check account creation is donne succesfully",
+        "description": "",
+        "id": "verify-that-user-can-creat-an-account-on-jumia;check-account-creation-is-donne-succesfully;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6289091000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "browser is open",
+            "match": {
+              "location": "StepsDef.CreatAccountsteps.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2122344000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "StepsDef.CreatAccountsteps.user_is_on_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1888122000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter his email ines.maaasmz@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ines.maaasmz@gmail.com",
+                  "offset": 20
+                }
+              ],
+              "location": "StepsDef.CreatAccountsteps.user_enter_his_email(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55936000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters his password aze222",
+            "match": {
+              "arguments": [
+                {
+                  "val": " aze222",
+                  "offset": 24
+                }
+              ],
+              "location": "StepsDef.CreatAccountsteps.user_enters_his_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2118778700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user confirms his password aze222",
+            "match": {
+              "arguments": [
+                {
+                  "val": " aze222",
+                  "offset": 26
+                }
+              ],
+              "location": "StepsDef.CreatAccountsteps.user_confirms_his_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52381700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters his prenom ines",
+            "match": {
+              "arguments": [
+                {
+                  "val": " ines",
+                  "offset": 22
+                }
+              ],
+              "location": "StepsDef.CreatAccountsteps.user_enters_his_prenom(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50187600,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user enters his nom maaz",
+            "match": {
+              "arguments": [
+                {
+                  "val": " maaz",
+                  "offset": 19
+                }
+              ],
+              "location": "StepsDef.CreatAccountsteps.user_enters_his_nom(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51004700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user enters his ndefamille mass",
+            "match": {
+              "arguments": [
+                {
+                  "val": " mass",
+                  "offset": 26
+                }
+              ],
+              "location": "StepsDef.CreatAccountsteps.user_enters_his_ndefamille(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2119882500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters his telephone55555555",
+            "match": {
+              "arguments": [
+                {
+                  "val": "55555555",
+                  "offset": 25
+                }
+              ],
+              "location": "StepsDef.CreatAccountsteps.user_enters_his_telephone(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81744100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user selects genre",
+            "match": {
+              "location": "StepsDef.CreatAccountsteps.user_selects_genre()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 813180800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user enters date de naissance671991",
+            "match": {
+              "arguments": [
+                {
+                  "val": "671991",
+                  "offset": 29
+                }
+              ],
+              "location": "StepsDef.CreatAccountsteps.user_enters_date_de_naissance(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3033202600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user enters codepin\u003ccodepin\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003ccodepin\u003e",
+                  "offset": 19
+                }
+              ],
+              "location": "StepsDef.CreatAccountsteps.user_enterss_codepin(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8319806300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user account is created",
+            "match": {
+              "location": "StepsDef.CreatAccountsteps.user_account_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TALAC-806"
+          },
+          {
+            "name": "@TEST_TALAC-805"
+          },
+          {
+            "name": "@CreationCompte"
+          }
+        ]
+      }
+    ],
+    "name": "Verify that user can creat an account on Jumia",
+    "description": "",
+    "id": "verify-that-user-can-creat-an-account-on-jumia",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/CreationCompte.feature",
+    "tags": [
+      {
+        "name": "@TALAC-806",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
